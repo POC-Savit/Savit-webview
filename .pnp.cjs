@@ -39,6 +39,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:aed08bad21222f2693a4dfb300c91ba959f09d6d713c1002a7e04d960f2fd13a72a9e818021f6de5009e62686e68ea8fcccd81bc8b8ef986b29bb4b2e58d2d5a#npm:5.2.1"],\
           ["eslint-plugin-react-hooks", "virtual:f6976d66e5b25f0af2f844b20c1e7d17b88064a87e73fab8e611697e725b91a85aa599ab4c6d931be27c77aa93e9a7250ad01b28cd642c4d320253eb0fe1f9ac#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:aed08bad21222f2693a4dfb300c91ba959f09d6d713c1002a7e04d960f2fd13a72a9e818021f6de5009e62686e68ea8fcccd81bc8b8ef986b29bb4b2e58d2d5a#npm:0.4.9"],\
+          ["husky", "npm:9.1.4"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:aed08bad21222f2693a4dfb300c91ba959f09d6d713c1002a7e04d960f2fd13a72a9e818021f6de5009e62686e68ea8fcccd81bc8b8ef986b29bb4b2e58d2d5a#npm:18.3.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
@@ -6770,6 +6771,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["husky", [\
+      ["npm:9.1.4", {\
+        "packageLocation": "./.yarn/cache/husky-npm-9.1.4-45a26bd693-f5185003be.zip/node_modules/husky/",\
+        "packageDependencies": [\
+          ["husky", "npm:9.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["iconv-lite", [\
       ["npm:0.6.3", {\
         "packageLocation": "./.yarn/cache/iconv-lite-npm-0.6.3-24b8aae27e-98102bc66b.zip/node_modules/iconv-lite/",\
@@ -8454,6 +8464,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:aed08bad21222f2693a4dfb300c91ba959f09d6d713c1002a7e04d960f2fd13a72a9e818021f6de5009e62686e68ea8fcccd81bc8b8ef986b29bb4b2e58d2d5a#npm:5.2.1"],\
           ["eslint-plugin-react-hooks", "virtual:f6976d66e5b25f0af2f844b20c1e7d17b88064a87e73fab8e611697e725b91a85aa599ab4c6d931be27c77aa93e9a7250ad01b28cd642c4d320253eb0fe1f9ac#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:aed08bad21222f2693a4dfb300c91ba959f09d6d713c1002a7e04d960f2fd13a72a9e818021f6de5009e62686e68ea8fcccd81bc8b8ef986b29bb4b2e58d2d5a#npm:0.4.9"],\
+          ["husky", "npm:9.1.4"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:aed08bad21222f2693a4dfb300c91ba959f09d6d713c1002a7e04d960f2fd13a72a9e818021f6de5009e62686e68ea8fcccd81bc8b8ef986b29bb4b2e58d2d5a#npm:18.3.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
