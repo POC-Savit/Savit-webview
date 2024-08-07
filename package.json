@@ -16,12 +16,12 @@
     "*.tsx": "eslint --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "19.0.0-rc-187dd6a7-20240806",
+    "react-dom": "19.0.0-rc-187dd6a7-20240806"
   },
   "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
     "@typescript-eslint/types": "^8.0.1",
@@ -36,5 +36,9 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.4"
   },
-  "packageManager": "yarn@4.4.0"
+  "packageManager": "yarn@4.4.0",
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
+  }
 }
