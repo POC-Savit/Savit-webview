@@ -15,6 +15,9 @@
     "*.ts": "eslint --fix --ignore-path .gitignore",
     "*.tsx": "eslint --fix --ignore-path .gitignore"
   },
+  "resolutions": {
+    "typescript": "5.2.2"
+  },
   "dependencies": {
     "react": "19.0.0-rc-187dd6a7-20240806",
     "react-dom": "19.0.0-rc-187dd6a7-20240806"
