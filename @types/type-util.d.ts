@@ -4,3 +4,9 @@ declare module 'type-util' {
   export type ObjectType<T = any> = { [key: string]: T }
   export type Nullable<T> = T | null
 }
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {}
+  }
+}
